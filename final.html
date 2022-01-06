@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="final_style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+        <ul id="menu">
+        <img src="Logo.png">
+        <li class="dropdown">
+            <a class="drpdwn" href="mailto:t1roma00@students.oamk.fi?subject=Love your scrollbar&body=Can you teach me how to do a scrollbar like this one? It's really cool. Thanks!">Contact us</a>
+        </li>
+        <li class="dropdown">
+            <a class="drpdwn" href="#about">About us</a>
+            <div class="dropdown-content">
+                <a href="#who">Who are we?</a>
+                <a href="#tabletitle">Skills summary</a>
+                <a href="#submittitle">Subscribe to our newsletter</a>
+            </div>
+        </li>
+        <li class="dropdown">
+            <a class="drpdwn" href="#normandy">What is so great about Normandy?</a>
+            <div class="dropdown-content">
+                <a href="https://bit.ly/3t1m2ri" target="_blank">Normandy on a map</a>
+                <a href="https://www.france-justforyou.com/normandy-map-main-sites-to-visit-in-normandy" target="_blank">What so see in Normandy</a>
+                <a href="https://www.planetware.com/tourist-attractions-/normandy-f-hn-nor.htm" target="_blank">Why you should go there</a>
+            </div>
+        </li>
+        </ul>
+
+        <div class="who">
+            <h1 id="who">Who are we?</h1>
+            <p>Trying to create a website’s design with Figma (100% recommand this tool), we are a humble 1st year student learning how to use HTML and CSS languages.
+                In this mockup, you’ll be able to find few menus on the top of this page, and if you follow the call-to-action buttons (or CTA) down below,
+                you’ll be able to perform the desired actions. Enjoy!</p>
+            <a href="#tabletitle">  
+                <button class="button button1">Get more infos</button>
+            </a>
+            <a href="#submittitle">
+                <button class="button button2">Read our newsletters</button>
+            </a>
+            <br><br>
+        </div>
+
+       <div class="tableskills" style="overflow-x:auto;">
+           <h3 id="tabletitle">Skills summary</h3>
+            <table class="table1">
+                <tr>
+                    <td>Introduction to Programming</td>
+                    <td>Completed</td>
+                </tr>
+                <tr>
+                    <td>Finnish Language and Culture 1</td>
+                    <td>Loading...</td>
+                </tr>
+                <tr>
+                    <td>Computer Devices and OS</td>
+                    <td>Completed</td>
+                </tr>
+                <tr>
+                    <td>HTML and CSS Programming</td>
+                    <td>Loading...</td>
+                </tr>
+                <tr>
+                    <td>Internet Programming & Databases</td>
+                    <td>Waiting</td>
+                </tr>
+                <tr>
+                    <td>Object Oriented Browser Programming</td>
+                    <td>Waiting</td>
+                </tr>
+                <tr>
+                    <td>Java Programming</td>
+                    <td>Waiting</td>
+                </tr>
+                <tr>
+                    <td>Mobile Development Project</td>
+                    <td>Waiting</td>
+                </tr>
+            </table>
+        </div>
+        <br><br>
+
+        <div class="form">
+            <h3 id="submittitle">Subscribe to our newsletter</h3>
+                <form>
+                    <div class="row">
+                        <div class="col-25">
+                            <label for="name">name:</label>
+                        </div>
+                        <div class="col-75">
+                            <input type="text" id="name" name="name" placeholder="Parrot" required><br><br>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-25">
+                            <label for="mail">email:</label>
+                        </div>
+                        <div class="col-75">
+                            <input type="email" id="mail" name="mail" placeholder="parrot@jungle.com" required><br><br>
+                        </div>
+                    </div>
+                        <a href="https://media.giphy.com/media/TpegB7FzEXfnWlrorG/giphy.gif" target="_blank">
+                            <button class="button button3">Subscribe</button>
+                        </a>
+                    <p>(You need to click right and open in a new tab for a surprise)</p>
+                </form>
+        </div>
+
+        <div class="footer">
+            <footer>
+                <img src="Logo.png">
+                <table class="table2">
+                <tr>
+                    <th>What is so great <br> about Normandy?</th>
+                    <th>About us</th>
+                    <th><a href="mailto:t1roma00@students.oamk.fi?subject=Love your scrollbar&body=Can you teach me how to do a scrollbar like this one? It's really cool. Thanks!">Contact us</a></th>
+                    <th><a href="https://www.privacypolicies.com/" target="_blank">Privacy Policy</a></th>
+                </tr>
+                <tr>
+                    <td><a href="https://bit.ly/3t1m2ri" target="_blank">Normandy on a map</a></td>
+                    <td><a href="#who">Who are we?</a></td>
+                </tr>
+                <tr>
+                    <td><a href="https://www.france-justforyou.com/normandy-map-main-sites-to-visit-in-normandy" target="_blank">What so see in Normandy</a></td>
+                    <td><a href="#tabletitle">Skills summary</a></td>
+                </tr>
+                <tr>
+                    <td><a href="https://www.planetware.com/tourist-attractions-/normandy-f-hn-nor.htm" target="_blank">Why you should go there</a></td>
+                    <td><a href="#submittitle">Subscribe to our newsletter</a></td>
+                </tr>
+                </table>
+            </footer>
+        </div>
+</body>
+</html>

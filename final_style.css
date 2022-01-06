@@ -1,0 +1,329 @@
+
+html {
+    background-image: url(bird-6847937_1920.jpg);
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+
+::-webkit-scrollbar { 
+    background: #161F2F;
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(180deg, #476D93 0%, #050216 100%);
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+    
+body {
+    margin: 0px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 100%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(255, 255, 255, 0.84);
+}
+
+#menu img {
+    width: 10em;
+    height: auto;
+    float: left;
+    display: flex;
+    justify-content: left;
+    margin-left: 3.4em;
+    margin-top: 1.5em;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: inline-block;
+    color: rgba(34, 33, 66, 1);
+    font-weight: bold;
+    text-align: left;
+    padding: 2.2em;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .drpdwn {
+    color: #CE6103;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 10rem;
+    background-color: rgba(255, 255, 255, 0.84);
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.02);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: rgba(34, 33, 66, 1);
+    padding: 0.75em 1em;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: rgba(255, 255, 255, 0.90);
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.who {
+    text-align: center;
+    width: 35%;
+    margin-left: 5%;
+    padding: 5px 5px 30px 5px;
+}
+
+h1 {
+    font-size: 4em;
+    color: white;
+}   
+
+p {
+    font-size: 1.3em;
+    color: white;
+}
+
+button {
+    box-sizing: border-box;
+    border-radius: 10px;
+    border-style: none;
+    margin: 10px;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 0.9em;
+    font-weight: bold;
+}
+
+.button1 {
+    background-color: #CE6103;
+    color: white;
+    cursor: pointer;
+    border: 2px solid white;
+}
+
+.button2 {
+    background-color: white;
+    color: #CE6103;
+    cursor: pointer;
+    border: 2px solid #CE6103;
+}
+
+.button3 {
+    background-color: rgba(255, 255, 255, 0.33);
+    color: rgba(206, 97, 3, 1);
+    border: 2px solid rgba(206, 97, 3, 1);
+    text-transform: uppercase;
+    cursor: pointer;
+    margin: 0 auto;
+    overflow-wrap: break-word;
+}
+
+.button3:hover {
+    background-color: rgba(255, 255, 255, 0.40) ;
+}
+
+.tableskills h3 {
+    color: white;
+    font-size: 1.6em;
+    text-align: center;
+    width: 35%;
+    margin-left: 5%;
+}
+
+.table1 {
+    box-sizing: border-box;
+    background-color: rgba(255, 255, 255, 0.54);
+    border: 2px solid #CE6103;
+    font-size: 0.9em; 
+    border-radius: 10px 10px 10px 10px;
+    width: 35%;
+    margin-left: 5%;
+    border-collapse: collapse;
+    overflow: hidden;
+}
+
+.table1 td {
+    text-align: left;
+    padding: 9px 20px;
+}
+
+.table1 tr:nth-child(even) {
+    background-color: rgb(204, 93, 37, 74%);
+    color: rgb(255, 255, 255);    
+}
+
+.table1 tr:nth-child(odd) {
+    background-color: rgb(255, 255, 255, 54%);
+}
+
+.form {
+    /* box-sizing: border-box; */
+    border-radius: 10px;
+    padding: 20px;
+    width: 31.5%;
+    margin-left: 5%;
+    margin-bottom: 5%;
+    color: white;
+    background: rgba(240, 220, 202, 0.65);
+    border: 2px solid #CE6103;
+  }
+
+.form h3 {
+    color: #CE6103;
+    font-size: 1.6em;
+    text-align: center;
+}
+
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+    font-weight: bold;
+}
+
+input {
+    width: 85%;
+    padding: 12px;
+    resize: vertical;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.38);
+    font-size: 0.75rem;
+}
+
+.col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+}
+  
+.col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+}
+
+.form p {
+    color: white;
+    font-size: 0.5rem;
+    font-weight: italic;
+}
+
+.footer {
+    padding: 1.2em;
+    background-color: rgba(214, 220, 227, 1);
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.footer img {
+    width: 15em;
+    height: auto;
+    float: center;
+}
+
+.footer th {
+    color: white;
+    text-transform: uppercase;
+    padding: 9px 20px;
+    font-size: 0.75em;
+}
+
+.footer td {
+    font-size: 0.65em;
+}
+
+.footer a:link {
+    color: white;
+    text-decoration: none;
+}
+
+.footer a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    color: #CE6103;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        margin: 0px;
+        font-family: 'Quicksand', sans-serif;
+        font-size: 70%;
+}
+    ul {
+        position: static;
+        display: block;
+}
+    ul li, li a {
+        width: 100%;
+}
+    .who {
+        width: 87%;
+        background-color: rgb(204, 93, 37, 74%);
+        border: 2px solid white;
+        border-radius: 10px;
+        margin: 5% auto;
+        padding: 5px 5px 20px 5px;
+}
+    .tableskills {
+        width: 85%;
+        background-color: rgba(240, 220, 202, 0.65);
+        border: 2px solid #CE6103;
+        border-radius: 10px;
+        margin-left: 5%;
+        margin-right: 5%;
+        padding: 15px 5px 15px 15px;
+} 
+    .tableskills h3 {
+        width: 87%;
+        margin-top: 0;
+}
+    .table1 {
+        width: 85%;
+        margin-top: 0;
+        margin-left: 6%;
+}
+    .form {
+        width: 81%;
+        margin-top: 1%;
+        background-color: rgb(204, 93, 37, 74%);
+        border: 2px solid white;
+}
+    .form h3 {
+        color: white;
+}
+    .button3 {
+        color: white;
+        border: 2px solid white;
+}
+}
+
+
+
+
+
